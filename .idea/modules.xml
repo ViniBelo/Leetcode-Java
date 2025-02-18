@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Algoritmos e Estruturas de Dados.iml" filepath="$PROJECT_DIR$/.idea/Algoritmos e Estruturas de Dados.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Merge_Two_Sorted_Lists_21/Merge_Two_Sorted_Lists_21.iml" filepath="$PROJECT_DIR$/Merge_Two_Sorted_Lists_21/Merge_Two_Sorted_Lists_21.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Middle_of_the_Linked_List_876/Middle_of_the_Linked_List_876.iml" filepath="$PROJECT_DIR$/Middle_of_the_Linked_List_876/Middle_of_the_Linked_List_876.iml" />
     </modules>
   </component>
 </project>

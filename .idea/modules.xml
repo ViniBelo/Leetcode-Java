@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Algoritmos e Estruturas de Dados.iml" filepath="$PROJECT_DIR$/.idea/Algoritmos e Estruturas de Dados.iml" />
       <module fileurl="file://$PROJECT_DIR$/Contains_Duplicate_II_219/Contains_Duplicate_II_219.iml" filepath="$PROJECT_DIR$/Contains_Duplicate_II_219/Contains_Duplicate_II_219.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Counting_Bits_338/Counting_Bits_338.iml" filepath="$PROJECT_DIR$/Counting_Bits_338/Counting_Bits_338.iml" />
       <module fileurl="file://$PROJECT_DIR$/Merge_Two_Sorted_Lists_21/Merge_Two_Sorted_Lists_21.iml" filepath="$PROJECT_DIR$/Merge_Two_Sorted_Lists_21/Merge_Two_Sorted_Lists_21.iml" />
       <module fileurl="file://$PROJECT_DIR$/Middle_of_the_Linked_List_876/Middle_of_the_Linked_List_876.iml" filepath="$PROJECT_DIR$/Middle_of_the_Linked_List_876/Middle_of_the_Linked_List_876.iml" />
       <module fileurl="file://$PROJECT_DIR$/Number_of_1_Bits_191/Number_of_1_Bits_191.iml" filepath="$PROJECT_DIR$/Number_of_1_Bits_191/Number_of_1_Bits_191.iml" />

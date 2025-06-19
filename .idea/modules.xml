@@ -3,21 +3,19 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/1. Two Sum/1. Two Sum.iml" filepath="$PROJECT_DIR$/1. Two Sum/1. Two Sum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/100. Same Tree/100. Same Tree.iml" filepath="$PROJECT_DIR$/100. Same Tree/100. Same Tree.iml" />
       <module fileurl="file://$PROJECT_DIR$/104. Maximum Depth of Binary Tree/104. Maximum Depth of Binary Tree.iml" filepath="$PROJECT_DIR$/104. Maximum Depth of Binary Tree/104. Maximum Depth of Binary Tree.iml" />
       <module fileurl="file://$PROJECT_DIR$/17. Letter Combinations of a Phone Number/17. Letter Combinations of a Phone Number.iml" filepath="$PROJECT_DIR$/17. Letter Combinations of a Phone Number/17. Letter Combinations of a Phone Number.iml" />
       <module fileurl="file://$PROJECT_DIR$/191. Number of 1 Bits/191. Number of 1 Bits.iml" filepath="$PROJECT_DIR$/191. Number of 1 Bits/191. Number of 1 Bits.iml" />
+      <module fileurl="file://$PROJECT_DIR$/206. Reverse Linked List/206. Reverse Linked List.iml" filepath="$PROJECT_DIR$/206. Reverse Linked List/206. Reverse Linked List.iml" />
+      <module fileurl="file://$PROJECT_DIR$/21. Merge Two Sorted Lists/21. Merge Two Sorted Lists.iml" filepath="$PROJECT_DIR$/21. Merge Two Sorted Lists/21. Merge Two Sorted Lists.iml" />
       <module fileurl="file://$PROJECT_DIR$/219. Contains Duplicate II/219. Contains Duplicate II.iml" filepath="$PROJECT_DIR$/219. Contains Duplicate II/219. Contains Duplicate II.iml" />
       <module fileurl="file://$PROJECT_DIR$/3. Longest Substring Without Repeating Characters/3. Longest Substring Without Repeating Characters.iml" filepath="$PROJECT_DIR$/3. Longest Substring Without Repeating Characters/3. Longest Substring Without Repeating Characters.iml" />
+      <module fileurl="file://$PROJECT_DIR$/338. Counting Bits/338. Counting Bits.iml" filepath="$PROJECT_DIR$/338. Counting Bits/338. Counting Bits.iml" />
+      <module fileurl="file://$PROJECT_DIR$/876. Middle of the Linked List/876. Middle of the Linked List.iml" filepath="$PROJECT_DIR$/876. Middle of the Linked List/876. Middle of the Linked List.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Algoritmos e Estruturas de Dados.iml" filepath="$PROJECT_DIR$/.idea/Algoritmos e Estruturas de Dados.iml" />
       <module fileurl="file://$PROJECT_DIR$/BinaryTree/BinaryTree.iml" filepath="$PROJECT_DIR$/BinaryTree/BinaryTree.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Counting_Bits_338/Counting_Bits_338.iml" filepath="$PROJECT_DIR$/Counting_Bits_338/Counting_Bits_338.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Merge_Two_Sorted_Lists_21/Merge_Two_Sorted_Lists_21.iml" filepath="$PROJECT_DIR$/Merge_Two_Sorted_Lists_21/Merge_Two_Sorted_Lists_21.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Middle_of_the_Linked_List_876/Middle_of_the_Linked_List_876.iml" filepath="$PROJECT_DIR$/Middle_of_the_Linked_List_876/Middle_of_the_Linked_List_876.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Number_of_1_Bits_191/Number_of_1_Bits_191.iml" filepath="$PROJECT_DIR$/Number_of_1_Bits_191/Number_of_1_Bits_191.iml" />
       <module fileurl="file://$PROJECT_DIR$/QuickSort/QuickSort.iml" filepath="$PROJECT_DIR$/QuickSort/QuickSort.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Reverse_Linked_List_206/Reverse_Linked_List_206.iml" filepath="$PROJECT_DIR$/Reverse_Linked_List_206/Reverse_Linked_List_206.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SameTree_100/SameTree_100.iml" filepath="$PROJECT_DIR$/SameTree_100/SameTree_100.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Two_Sum_1/Two_Sum_1.iml" filepath="$PROJECT_DIR$/Two_Sum_1/Two_Sum_1.iml" />
     </modules>
   </component>
 </project>

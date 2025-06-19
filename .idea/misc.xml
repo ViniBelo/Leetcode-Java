@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="web" url="file://$PROJECT_DIR$/Merge_Two_Sorted_Lists_21" />
+    <file type="web" url="file://$PROJECT_DIR$/21. Merge Two Sorted Lists" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

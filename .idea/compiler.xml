@@ -9,7 +9,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Merge_Two_Sorted_Lists_21" target="21" />
+      <module name="21. Merge Two Sorted Lists" target="21" />
     </bytecodeTargetLevel>
   </component>
 </project>

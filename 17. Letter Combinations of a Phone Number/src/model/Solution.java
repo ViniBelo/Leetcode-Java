@@ -1,13 +1,10 @@
 package model;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class Solution {
     public static final Map<Character, char[]> PHONE_KEYBOARD = createPhoneKeyboard();
-    private List<String> response = new ArrayList<String>();
+//    private List<String> response = new ArrayList<String>();
 
     private static Map<Character, char[]> createPhoneKeyboard() {
         Map<Character, char[]> map = new HashMap<>();
@@ -22,24 +19,51 @@ public class Solution {
         return map;
     }
 
+//    First try
+//    public List<String> letterCombinations(String digits) {
+//        if (digits.isEmpty()) {
+//            return List.of();
+//        }
+//
+//        recursiveLetterCombinations("", digits);
+//        return response;
+//    }
+//
+//    private void recursiveLetterCombinations(String permutation, String digits) {
+//
+//        if (digits.isEmpty()) {
+//            response.add(permutation);
+//            return;
+//        }
+//
+//        for (Character letter: PHONE_KEYBOARD.get(digits.charAt(0))) {
+//            recursiveLetterCombinations(permutation.concat(letter.toString()), digits.substring(1));
+//        }
+//    }
+
     public List<String> letterCombinations(String digits) {
-        if (digits.isEmpty()) {
-            return List.of();
+        var charCombinations = new ArrayList<String>();
+
+        if (digits.isBlank()) {
+            return charCombinations;
         }
 
-        recursiveLetterCombinations("", digits);
-        return response;
+        combineLetters("", 0, digits, charCombinations);
+        return charCombinations;
     }
 
-    private void recursiveLetterCombinations(String permutation, String digits) {
-
-        if (digits.isEmpty()) {
-            response.add(permutation);
+    void combineLetters(String actualCombination, int restOfDigits, String digits, ArrayList<String> charConbinations) {
+        if (digits.substring(restOfDigits).isEmpty()) {
+            charConbinations.add(actualCombination);
             return;
         }
 
-        for (Character letter: PHONE_KEYBOARD.get(digits.charAt(0))) {
-            recursiveLetterCombinations(permutation.concat(letter.toString()), digits.substring(1));
+        for (Character letter: PHONE_KEYBOARD.get(digits.charAt(restOfDigits))) {
+            combineLetters(
+                    String.valueOf(actualCombination + letter),
+                    restOfDigits + 1,
+                    digits,
+                    charConbinations);
         }
     }
 }

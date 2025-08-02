@@ -4,7 +4,7 @@ public class Solution {
     public ListNode reverseList(ListNode head) {
         ListNode newList = null;
         while (head != null) {
-            ListNode next = head.next;
+            var next = head.next;
             head.next = newList;
             newList = head;
             head = next;

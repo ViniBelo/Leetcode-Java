@@ -17,15 +17,34 @@ public class Solution {
 //    }
 
 //    Second try
+//    public int maxDepth(TreeNode root) {
+//        return counterDfs(root, 0);
+//    }
+//
+//    private int counterDfs(TreeNode current, Integer depth) {
+//        if (current == null) {
+//            return depth;
+//        }
+//        return Math.max(counterDfs(current.left, depth + 1),
+//                counterDfs(current.right, depth + 1));
+//    }
+
+//    Third try
     public int maxDepth(TreeNode root) {
-        return counterDfs(root, 0);
+        if (root == null) return 0;
+        return recursiveDFS(root, 1);
     }
 
-    private int counterDfs(TreeNode current, Integer depth) {
-        if (current == null) {
-            return depth;
+    public int recursiveDFS(TreeNode root, int max) {
+        if (root.left == null && root.right == null) return max;
+        var left = 0;
+        var right = 0;
+        if (root.left != null) {
+            left = Math.max(max, recursiveDFS(root.left, max + 1));
         }
-        return Math.max(counterDfs(current.left, depth + 1),
-                counterDfs(current.right, depth + 1));
+        if (root.right != null) {
+            right = Math.max(max, recursiveDFS(root.right, max + 1));
+        }
+        return Math.max(left, right);
     }
 }
